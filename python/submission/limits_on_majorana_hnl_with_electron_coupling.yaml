@@ -1,0 +1,316 @@
+dependent_variables:
+- header:
+    name: Observed
+  qualifiers:
+  - name: Limits
+    value: Exclusion limit on $|V_{Ne}|^2$
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  values:
+  - value: 2.3915e-05
+  - value: 1.183e-05
+  - value: 7.9718e-06
+  - value: 5.9217e-06
+  - value: 4.8494e-06
+  - value: 4.5586e-06
+  - value: 4.1909e-06
+  - value: 4.4901e-06
+  - value: 4.4101e-06
+  - value: 5.0726e-06
+  - value: 8.0162e-06
+  - value: 1.4994e-05
+  - value: 0.00033461
+  - value: 0.001179
+  - value: 0.00088167
+  - value: 0.0019704
+  - value: 0.0023747
+  - value: 0.0025595
+  - value: 0.0040197
+  - value: 0.0076581
+  - value: 0.015281
+  - value: 0.022674
+  - value: 0.032834
+  - value: 0.035299
+  - value: 0.04752
+  - value: 0.044487
+  - value: 0.056878
+  - value: 0.078471
+  - value: 0.12027
+  - value: 0.17825
+  - value: 0.25522
+  - value: 0.36015
+  - value: 0.6758
+  - value: 1.9457
+- header:
+    name: Expected
+  qualifiers:
+  - name: Limits
+    value: Exclusion limit on $|V_{Ne}|^2$
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  values:
+  - value: 2.3226e-05
+  - value: 1.0152e-05
+  - value: 7.7432e-06
+  - value: 5.4127e-06
+  - value: 4.6782e-06
+  - value: 4.5044e-06
+  - value: 4.6406e-06
+  - value: 4.7917e-06
+  - value: 6.6563e-06
+  - value: 6.2578e-06
+  - value: 1.1133e-05
+  - value: 2.1641e-05
+  - value: 0.00052344
+  - value: 0.0018828
+  - value: 0.0015
+  - value: 0.0026641
+  - value: 0.0035469
+  - value: 0.0031523
+  - value: 0.0052148
+  - value: 0.010117
+  - value: 0.0077344
+  - value: 0.010469
+  - value: 0.014727
+  - value: 0.025469
+  - value: 0.021172
+  - value: 0.033203
+  - value: 0.043164
+  - value: 0.061172
+  - value: 0.094531
+  - value: 0.1418
+  - value: 0.20391
+  - value: 0.28945
+  - value: 0.54297
+  - value: 1.5625
+- header:
+    name: 68% exp. lower
+  qualifiers:
+  - name: Limits
+    value: Exclusion limit on $|V_{Ne}|^2$
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  values:
+  - value: 2.0683e-05
+  - value: 9.0081e-06
+  - value: 5.3848e-06
+  - value: 4.4537e-06
+  - value: 3.7181e-06
+  - value: 3.2229e-06
+  - value: 3.2244e-06
+  - value: 3.6069e-06
+  - value: 4.6087e-06
+  - value: 4.36e-06
+  - value: 7.7625e-06
+  - value: 1.5089e-05
+  - value: 0.00036497
+  - value: 0.001329
+  - value: 0.0010588
+  - value: 0.0018805
+  - value: 0.0025337
+  - value: 0.0022099
+  - value: 0.0036135
+  - value: 0.007005
+  - value: 0.0053551
+  - value: 0.0071973
+  - value: 0.010125
+  - value: 0.017758
+  - value: 0.014504
+  - value: 0.023117
+  - value: 0.029886
+  - value: 0.042056
+  - value: 0.064759
+  - value: 0.096793
+  - value: 0.13838
+  - value: 0.19644
+  - value: 0.36823
+  - value: 1.0527
+- header:
+    name: 68% exp. higher
+  qualifiers:
+  - name: Limits
+    value: Exclusion limit on $|V_{Ne}|^2$
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  values:
+  - value: 2.5055e-05
+  - value: 1.6822e-05
+  - value: 9.4044e-06
+  - value: 8.0717e-06
+  - value: 6.8807e-06
+  - value: 6.7812e-06
+  - value: 6.8049e-06
+  - value: 7.6075e-06
+  - value: 9.787e-06
+  - value: 9.1762e-06
+  - value: 1.6236e-05
+  - value: 3.1561e-05
+  - value: 0.00076129
+  - value: 0.0027159
+  - value: 0.0021457
+  - value: 0.0038109
+  - value: 0.0050172
+  - value: 0.0045597
+  - value: 0.0075222
+  - value: 0.014594
+  - value: 0.011341
+  - value: 0.015434
+  - value: 0.021829
+  - value: 0.037042
+  - value: 0.031299
+  - value: 0.048556
+  - value: 0.063638
+  - value: 0.090676
+  - value: 0.14126
+  - value: 0.21301
+  - value: 0.30632
+  - value: 0.43598
+  - value: 0.82216
+  - value: 2.3784
+- header:
+    name: 95% exp. lower
+  qualifiers:
+  - name: Limits
+    value: Exclusion limit on $|V_{Ne}|^2$
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  values:
+  - value: 1.7645e-05
+  - value: 7.7909e-06
+  - value: 4.6432e-06
+  - value: 3.7156e-06
+  - value: 2.566e-06
+  - value: 2.3691e-06
+  - value: 2.3747e-06
+  - value: 2.4439e-06
+  - value: 3.3801e-06
+  - value: 3.2022e-06
+  - value: 5.7404e-06
+  - value: 1.1158e-05
+  - value: 0.0002699
+  - value: 0.00098553
+  - value: 0.00078516
+  - value: 0.0013945
+  - value: 0.0018843
+  - value: 0.0016254
+  - value: 0.0026685
+  - value: 0.0051376
+  - value: 0.0039276
+  - value: 0.0052344
+  - value: 0.0073633
+  - value: 0.013132
+  - value: 0.010503
+  - value: 0.016861
+  - value: 0.021919
+  - value: 0.030586
+  - value: 0.046896
+  - value: 0.069791
+  - value: 0.10036
+  - value: 0.14247
+  - value: 0.26512
+  - value: 0.75684
+- header:
+    name: 95% exp. higher
+  qualifiers:
+  - name: Limits
+    value: Exclusion limit on $|V_{Ne}|^2$
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  values:
+  - value: 3.6685e-05
+  - value: 2.0915e-05
+  - value: 1.3507e-05
+  - value: 9.7337e-06
+  - value: 9.1155e-06
+  - value: 9.2249e-06
+  - value: 9.6305e-06
+  - value: 9.7747e-06
+  - value: 1.3911e-05
+  - value: 1.2987e-05
+  - value: 2.2911e-05
+  - value: 4.4269e-05
+  - value: 0.0010695
+  - value: 0.0037621
+  - value: 0.0029572
+  - value: 0.0052689
+  - value: 0.0068424
+  - value: 0.0063463
+  - value: 0.010453
+  - value: 0.020342
+  - value: 0.015956
+  - value: 0.021905
+  - value: 0.031064
+  - value: 0.051878
+  - value: 0.044609
+  - value: 0.068414
+  - value: 0.090316
+  - value: 0.12978
+  - value: 0.2035
+  - value: 0.30931
+  - value: 0.44603
+  - value: 0.63553
+  - value: 1.2042
+  - value: 3.5092
+independent_variables:
+- header:
+    name: HNL mass
+    units: GeV
+  values:
+  - value: 10.0
+  - value: 12.5
+  - value: 15.0
+  - value: 17.5
+  - value: 20.0
+  - value: 25.0
+  - value: 30.0
+  - value: 30.0
+  - value: 40.0
+  - value: 40.0
+  - value: 50.0
+  - value: 60.0
+  - value: 75.0
+  - value: 85.0
+  - value: 100.0
+  - value: 125.0
+  - value: 125.0
+  - value: 150.0
+  - value: 200.0
+  - value: 250.0
+  - value: 250.0
+  - value: 300.0
+  - value: 350.0
+  - value: 400.0
+  - value: 400.0
+  - value: 450.0
+  - value: 500.0
+  - value: 600.0
+  - value: 700.0
+  - value: 800.0
+  - value: 900.0
+  - value: 1000.0
+  - value: 1200.0
+  - value: 1500.0
