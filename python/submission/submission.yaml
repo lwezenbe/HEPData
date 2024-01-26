@@ -9,122 +9,38 @@ data_license:
   name: cc-by-4.0
   url: https://creativecommons.org/licenses/by/4.0/
 ---
-additional_resources:
-- description: Image file
-  location: limits.png
-- description: Thumbnail image file
-  location: thumb_limits.png
-data_file: limits_on_majorana_hnl_with_electron_coupling.yaml
-description: The 95% CL limits on $|V_{Ne}|^2$ as a function of the HNL mass for a
-  Majorana HNL.
-keywords:
-- name: reactions
-  values:
-  - P P --> LEPTON HNL --> LEPTON LEPTON LEPTON NU
-- name: cmenergies
-  values:
-  - 13000.0
-- name: phrases
-  values: []
+data_file: cut_flow:_e-coupling,_low_mass_region.yaml
+description: Example description
+keywords: []
 location: Example location
-name: Limits on Majorana HNL with electron coupling
+name: 'Cut flow: e-coupling, low mass region'
 ---
-additional_resources:
-- description: Image file
-  location: limits.png
-- description: Thumbnail image file
-  location: thumb_limits.png
-data_file: limits_on_majorana_hnl_with_muon_coupling.yaml
-description: The 95% CL limits on $|V_{N\mu}|^2$ as a function of the HNL mass for
-  a Majorana HNL.
-keywords:
-- name: reactions
-  values:
-  - P P --> LEPTON HNL --> LEPTON LEPTON LEPTON NU
-- name: cmenergies
-  values:
-  - 13000.0
-- name: phrases
-  values: []
+data_file: cut_flow:_mu-coupling,_low_mass_region.yaml
+description: Example description
+keywords: []
 location: Example location
-name: Limits on Majorana HNL with muon coupling
+name: 'Cut flow: mu-coupling, low mass region'
 ---
-additional_resources:
-- description: Image file
-  location: limits.png
-- description: Thumbnail image file
-  location: thumb_limits.png
-data_file: limits_on_majorana_hnl_with_tau_coupling.yaml
-description: "The 95% CL limits on $|V_{N\tau}|^2$ as a function of the HNL mass for\
-  \ a Majorana HNL."
-keywords:
-- name: reactions
-  values:
-  - P P --> LEPTON HNL --> LEPTON LEPTON LEPTON NU
-- name: cmenergies
-  values:
-  - 13000.0
-- name: phrases
-  values: []
+data_file: cut_flow:_tau-coupling,_low_mass_region.yaml
+description: Example description
+keywords: []
 location: Example location
-name: Limits on Majorana HNL with tau coupling
+name: 'Cut flow: tau-coupling, low mass region'
 ---
-additional_resources:
-- description: Image file
-  location: limits.png
-- description: Thumbnail image file
-  location: thumb_limits.png
-data_file: limits_on_dirac_hnl_with_electron_coupling.yaml
-description: The 95% CL limits on $|V_{Ne}|^2$ as a function of the HNL mass for a
-  Dirac HNL.
-keywords:
-- name: reactions
-  values:
-  - P P --> LEPTON HNL --> LEPTON LEPTON LEPTON NU
-- name: cmenergies
-  values:
-  - 13000.0
-- name: phrases
-  values: []
+data_file: cut_flow:_e-coupling,_high_mass_region.yaml
+description: Example description
+keywords: []
 location: Example location
-name: Limits on Dirac HNL with electron coupling
+name: 'Cut flow: e-coupling, high mass region'
 ---
-additional_resources:
-- description: Image file
-  location: limits.png
-- description: Thumbnail image file
-  location: thumb_limits.png
-data_file: limits_on_dirac_hnl_with_muon_coupling.yaml
-description: The 95% CL limits on $|V_{N\mu}|^2$ as a function of the HNL mass for
-  a Dirac HNL.
-keywords:
-- name: reactions
-  values:
-  - P P --> LEPTON HNL --> LEPTON LEPTON LEPTON NU
-- name: cmenergies
-  values:
-  - 13000.0
-- name: phrases
-  values: []
+data_file: cut_flow:_mu-coupling,_high_mass_region.yaml
+description: Example description
+keywords: []
 location: Example location
-name: Limits on Dirac HNL with muon coupling
+name: 'Cut flow: mu-coupling, high mass region'
 ---
-additional_resources:
-- description: Image file
-  location: limits.png
-- description: Thumbnail image file
-  location: thumb_limits.png
-data_file: limits_on_dirac_hnl_with_tau_coupling.yaml
-description: "The 95% CL limits on $|V_{N\tau}|^2$ as a function of the HNL mass for\
-  \ a Dirac HNL."
-keywords:
-- name: reactions
-  values:
-  - P P --> LEPTON HNL --> LEPTON LEPTON LEPTON NU
-- name: cmenergies
-  values:
-  - 13000.0
-- name: phrases
-  values: []
+data_file: cut_flow:_tau-coupling,_high_mass_region.yaml
+description: Example description
+keywords: []
 location: Example location
-name: Limits on Dirac HNL with tau coupling
+name: 'Cut flow: tau-coupling, high mass region'

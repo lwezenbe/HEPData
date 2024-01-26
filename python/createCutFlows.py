@@ -41,7 +41,7 @@ def getTranslatedCat(cat):
         return category_dict[cat]
     return cat 
 
-flavor_tex_dict = {'e' : 'e', 'mu' : '\mu', 'tau' : '\\tau'}
+flavor_tex_dict = {'e' : 'e', 'mu' : '\mu', 'tau' : '\\tau', 'taulep' : '\\tau', 'tauhad' : '\\tau'}
 
 
 def translateCut(cut_name, category):
@@ -201,48 +201,35 @@ def addCutflowTo(submission):
     #
     #Low mass
     #
-    in_path_lowmass_e = '/storage_mnt/storage/user/lwezenbe/private/PhD/Analysis_CMSSW_10_2_22/CMSSW_10_2_22/src/HNL/Analysis/data/Results/runAnalysis/HNL-CutFlow/MVA-default-lowMassSRloose-/UL2016post-2016pre-2017-2018/signalAndBackground-Majorana/e_coupling/customMasses/10.0to75.0/CutFlows/cutflow.json'
+    in_path_lowmass_e = '../data/cutflows/low_mass_e.json'
     table_lowmass_e = createCutFlowTable(in_path_lowmass_e, ['EEE-Mu', 'MuMuMu-E'], 'Cut flow: e-coupling, low mass region')
     submission.add_table(table_lowmass_e)
     
-    in_path_lowmass_mu = '/storage_mnt/storage/user/lwezenbe/private/PhD/Analysis_CMSSW_10_2_22/CMSSW_10_2_22/src/HNL/Analysis/data/Results/runAnalysis/HNL-CutFlow/MVA-default-lowMassSRloose-/UL2016post-2016pre-2017-2018/signalAndBackground-Majorana/mu_coupling/customMasses/10.0to75.0/CutFlows/cutflow.json'
+    in_path_lowmass_mu = '../data/cutflows/low_mass_mu.json'
     table_lowmass_mu = createCutFlowTable(in_path_lowmass_mu, ['EEE-Mu', 'MuMuMu-E'], 'Cut flow: mu-coupling, low mass region')
     submission.add_table(table_lowmass_mu)
     
-    in_path_lowmass_tau = '/storage_mnt/storage/user/lwezenbe/private/PhD/Analysis_CMSSW_10_2_22/CMSSW_10_2_22/src/HNL/Analysis/data/Results/runAnalysis/HNL-CutFlow/MVA-default-lowMassSRloose-/UL2016post-2016pre-2017-2018/signalAndBackground-Majorana/tau_coupling/customMasses/10.0to75.0/CutFlows/cutflow.json'
+    in_path_lowmass_tau = '../data/cutflows/low_mass_tau.json'
     table_lowmass_tau = createCutFlowTable(in_path_lowmass_tau, ['EEE-Mu', 'MuMuMu-E', 'TauEE', 'TauMuMu', 'TauEMu'], 'Cut flow: tau-coupling, low mass region')
     submission.add_table(table_lowmass_tau)
 
     #
     #High mass
     #
-    in_path_highmass_e = '/storage_mnt/storage/user/lwezenbe/private/PhD/Analysis_CMSSW_10_2_22/CMSSW_10_2_22/src/HNL/Analysis/data/Results/runAnalysis/HNL-CutFlow/MVA-default-highMassSR-/UL2016post-2016pre-2017-2018/signalAndBackground-Majorana/e_coupling/customMasses/85.0to1500.0/CutFlows/cutflow.json'
+    in_path_highmass_e = '../data/cutflows/high_mass_e.json'
     table_highmass_e = createCutFlowTable(in_path_highmass_e, ['EEE-Mu', 'MuMuMu-E'], 'Cut flow: e-coupling, high mass region')
     submission.add_table(table_highmass_e)
     
-    in_path_highmass_mu = '/storage_mnt/storage/user/lwezenbe/private/PhD/Analysis_CMSSW_10_2_22/CMSSW_10_2_22/src/HNL/Analysis/data/Results/runAnalysis/HNL-CutFlow/MVA-default-highMassSR-/UL2016post-2016pre-2017-2018/signalAndBackground-Majorana/mu_coupling/customMasses/85.0to1500.0/CutFlows/cutflow.json'
+    in_path_highmass_mu = '../data/cutflows/high_mass_mu.json'
     table_highmass_mu = createCutFlowTable(in_path_highmass_mu, ['EEE-Mu', 'MuMuMu-E'], 'Cut flow: mu-coupling, high mass region')
     submission.add_table(table_highmass_mu)
 
-    in_path_highmass_tau = '/storage_mnt/storage/user/lwezenbe/private/PhD/Analysis_CMSSW_10_2_22/CMSSW_10_2_22/src/HNL/Analysis/data/Results/runAnalysis/HNL-CutFlow/MVA-default-highMassSR-/UL2016post-2016pre-2017-2018/signalAndBackground-Majorana/tau_coupling/customMasses/85.0to1500.0/CutFlows/cutflow.json'
+    in_path_highmass_tau = '../data/cutflows/high_mass_tau.json'
     table_highmass_tau = createCutFlowTable(in_path_highmass_tau, ['EEE-Mu', 'MuMuMu-E', 'TauEE', 'TauMuMu', 'TauEMu'], 'Cut flow: tau-coupling, high mass region')
     submission.add_table(table_highmass_tau)
 
 if __name__ == '__main__':
     from hepdata_lib import Submission
     submission = Submission()
-    #addCutflowTo(submission)
-    
-    table_elow = createCutFlowTableTest('/storage_mnt/storage/user/lwezenbe/private/PhD/Analysis_CMSSW_10_2_22/CMSSW_10_2_22/src/HNL/Analysis/data/Results/runAnalysis/HNL-CutFlow/MVA-default-lowMassSRloose-/UL2016post-2016pre-2017-2018/signalAndBackground-Majorana/e_coupling/customMasses/20.0-40.0-60.0/CutFlows/cutflow.json', ['NoTau'], 'cutflow: low mass region: NoTau')
-    table_taulow = createCutFlowTableTest('/storage_mnt/storage/user/lwezenbe/private/PhD/Analysis_CMSSW_10_2_22/CMSSW_10_2_22/src/HNL/Analysis/data/Results/runAnalysis/HNL-CutFlow/MVA-default-lowMassSRloose-/UL2016post-2016pre-2017-2018/signalAndBackground-Majorana/tau_coupling/customMasses/20.0-40.0-60.0/CutFlows/cutflow.json', ['SingleTau'], 'cutflow: low mass region: SingleTau')
-    table_ehigh = createCutFlowTableTest('/storage_mnt/storage/user/lwezenbe/private/PhD/Analysis_CMSSW_10_2_22/CMSSW_10_2_22/src/HNL/Analysis/data/Results/runAnalysis/HNL-CutFlow/MVA-default-highMassSR-/UL2016post-2016pre-2017-2018/signalAndBackground-Majorana/e_coupling/customMasses/150.0-500.0-800.0/CutFlows/cutflow.json', ['NoTau'], 'cutflow: high mass region: NoTau')
-    submission.add_table(table_elow) 
-    submission.add_table(table_taulow) 
-    submission.add_table(table_ehigh) 
-
+    addCutflowTo(submission)
     submission.create_files('./submission')
-    #printTexTable('/storage_mnt/storage/user/lwezenbe/private/PhD/Analysis_CMSSW_10_2_22/CMSSW_10_2_22/src/HNL/Analysis/data/Results/runAnalysis/HNL-CutFlow/MVA-default-lowMassSRloose-/UL2016post-2016pre-2017-2018/signalAndBackground-Majorana/e_coupling/customMasses/20.0-40.0-60.0/CutFlows/cutflow.json', 'NoTau', 'cutflow: low mass region: NoTau')
-    #printTexTable('/storage_mnt/storage/user/lwezenbe/private/PhD/Analysis_CMSSW_10_2_22/CMSSW_10_2_22/src/HNL/Analysis/data/Results/runAnalysis/HNL-CutFlow/MVA-default-lowMassSRloose-/UL2016post-2016pre-2017-2018/signalAndBackground-Majorana/tau_coupling/customMasses/20.0-40.0-60.0/CutFlows/cutflow.json', 'SingleTau', 'cutflow: low mass region: SingleTau', scale_signal=100.)
-    #printTexTable('/storage_mnt/storage/user/lwezenbe/private/PhD/Analysis_CMSSW_10_2_22/CMSSW_10_2_22/src/HNL/Analysis/data/Results/runAnalysis/HNL-CutFlow/MVA-default-highMassSR-/UL2016post-2016pre-2017-2018/signalAndBackground-Majorana/e_coupling/customMasses/150.0-500.0-800.0/CutFlows/cutflow.json', 'NoTau', 'cutflow: high mass region: NoTau', scale_signal = 1000.)
-    printTexTable('/storage_mnt/storage/user/lwezenbe/private/PhD/Analysis_CMSSW_10_2_22/CMSSW_10_2_22/src/HNL/Analysis/data/Results/runAnalysis/HNL-CutFlow/MVA-default-highMassSR-/UL2016post-2016pre-2017-2018/signalAndBackground-Majorana/tau_coupling/customMasses/150.0-500.0-800.0/CutFlows/cutflow.json', 'SingleTau', 'cutflow: high mass region: NoTau', scale_signal = 1000.)
-

@@ -1,0 +1,2500 @@
+dependent_variables:
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $eee$ or $ee\mu$
+  - name: HNL mass
+    value: 85.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.33174
+  - value: 0.33166
+  - value: 0.29531
+  - value: 0.10046
+  - value: 0.043916
+  - value: 0.040662
+  - value: 0.040166
+  - value: 0.039966
+  - value: 0.036248
+  - value: 0.017806
+  - value: 0.017551
+  - value: 0.017551
+  - value: 0.015455
+  - value: 0.014297
+  - value: 0.014264
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\mu$ or $\mu\mu e$
+  - name: HNL mass
+    value: 85.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.33174
+  - value: 0.33166
+  - value: 0.29531
+  - value: 0.10046
+  - value: 0.053116
+  - value: 0.052937
+  - value: 0.052247
+  - value: 0.052067
+  - value: 0.047245
+  - value: 0.019806
+  - value: 0.019522
+  - value: 0.019522
+  - value: 0.017371
+  - value: 0.015933
+  - value: 0.015691
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $ee\tau$
+  - name: HNL mass
+    value: 85.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 1.2617
+  - value: 1.2612
+  - value: 0.84105
+  - value: 0.18981
+  - value: 0.029928
+  - value: 0.028179
+  - value: 0.027922
+  - value: 0.027688
+  - value: 0.025602
+  - value: 0.01446
+  - value: 0.01446
+  - value: 0.01446
+  - value: 0.013641
+  - value: 0.013305
+  - value: 0.013305
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\tau$
+  - name: HNL mass
+    value: 85.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 1.2617
+  - value: 1.2612
+  - value: 0.84105
+  - value: 0.18981
+  - value: 0.043447
+  - value: 0.041635
+  - value: 0.041155
+  - value: 0.041127
+  - value: 0.036794
+  - value: 0.01755
+  - value: 0.01755
+  - value: 0.01755
+  - value: 0.016915
+  - value: 0.015809
+  - value: 0.015469
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $e\mu\tau$
+  - name: HNL mass
+    value: 85.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 1.2617
+  - value: 1.2612
+  - value: 0.84105
+  - value: 0.18981
+  - value: 0.069208
+  - value: 0.064965
+  - value: 0.063964
+  - value: 0.063486
+  - value: 0.057406
+  - value: 0.030537
+  - value: 0.030537
+  - value: 0.030537
+  - value: 0.030537
+  - value: 0.030537
+  - value: 0.030537
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $eee$ or $ee\mu$
+  - name: HNL mass
+    value: 100.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.79288
+  - value: 0.79271
+  - value: 0.74156
+  - value: 0.32786
+  - value: 0.1452
+  - value: 0.14093
+  - value: 0.13926
+  - value: 0.13871
+  - value: 0.12658
+  - value: 0.064853
+  - value: 0.064445
+  - value: 0.064445
+  - value: 0.03817
+  - value: 0.034803
+  - value: 0.034782
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\mu$ or $\mu\mu e$
+  - name: HNL mass
+    value: 100.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.79288
+  - value: 0.79271
+  - value: 0.74156
+  - value: 0.32786
+  - value: 0.17489
+  - value: 0.17471
+  - value: 0.17252
+  - value: 0.17233
+  - value: 0.15735
+  - value: 0.075095
+  - value: 0.074351
+  - value: 0.074351
+  - value: 0.040903
+  - value: 0.03662
+  - value: 0.036434
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $ee\tau$
+  - name: HNL mass
+    value: 100.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 2.0279
+  - value: 2.0271
+  - value: 1.5225
+  - value: 0.56589
+  - value: 0.12479
+  - value: 0.12151
+  - value: 0.11991
+  - value: 0.11937
+  - value: 0.10786
+  - value: 0.064511
+  - value: 0.064511
+  - value: 0.064511
+  - value: 0.0378
+  - value: 0.035821
+  - value: 0.035788
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\tau$
+  - name: HNL mass
+    value: 100.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 2.0279
+  - value: 2.0271
+  - value: 1.5225
+  - value: 0.56589
+  - value: 0.16563
+  - value: 0.16279
+  - value: 0.16091
+  - value: 0.1608
+  - value: 0.14676
+  - value: 0.083506
+  - value: 0.083506
+  - value: 0.083506
+  - value: 0.048425
+  - value: 0.044425
+  - value: 0.044361
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $e\mu\tau$
+  - name: HNL mass
+    value: 100.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 2.0279
+  - value: 2.0271
+  - value: 1.5225
+  - value: 0.56589
+  - value: 0.15574
+  - value: 0.14872
+  - value: 0.14587
+  - value: 0.14546
+  - value: 0.13083
+  - value: 0.075909
+  - value: 0.075909
+  - value: 0.075909
+  - value: 0.075909
+  - value: 0.075909
+  - value: 0.075909
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $eee$ or $ee\mu$
+  - name: HNL mass
+    value: 125.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.70987
+  - value: 0.70965
+  - value: 0.67707
+  - value: 0.34454
+  - value: 0.15438
+  - value: 0.15111
+  - value: 0.14932
+  - value: 0.14877
+  - value: 0.13572
+  - value: 0.07349
+  - value: 0.07314
+  - value: 0.07314
+  - value: 0.036688
+  - value: 0.033814
+  - value: 0.033804
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\mu$ or $\mu\mu e$
+  - name: HNL mass
+    value: 125.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.70987
+  - value: 0.70965
+  - value: 0.67707
+  - value: 0.34454
+  - value: 0.18115
+  - value: 0.18109
+  - value: 0.17895
+  - value: 0.17882
+  - value: 0.16305
+  - value: 0.085475
+  - value: 0.084963
+  - value: 0.084963
+  - value: 0.039131
+  - value: 0.03587
+  - value: 0.035777
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $ee\tau$
+  - name: HNL mass
+    value: 125.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 2.2391
+  - value: 2.2378
+  - value: 1.7183
+  - value: 0.75969
+  - value: 0.16425
+  - value: 0.16071
+  - value: 0.15805
+  - value: 0.15713
+  - value: 0.14342
+  - value: 0.087527
+  - value: 0.087527
+  - value: 0.087527
+  - value: 0.047925
+  - value: 0.046066
+  - value: 0.046047
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\tau$
+  - name: HNL mass
+    value: 125.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 2.2391
+  - value: 2.2378
+  - value: 1.7183
+  - value: 0.75969
+  - value: 0.20627
+  - value: 0.20325
+  - value: 0.20024
+  - value: 0.20009
+  - value: 0.18235
+  - value: 0.10671
+  - value: 0.10671
+  - value: 0.10671
+  - value: 0.05372
+  - value: 0.051323
+  - value: 0.051235
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $e\mu\tau$
+  - name: HNL mass
+    value: 125.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 2.2391
+  - value: 2.2378
+  - value: 1.7183
+  - value: 0.75969
+  - value: 0.19828
+  - value: 0.19076
+  - value: 0.18835
+  - value: 0.1876
+  - value: 0.17039
+  - value: 0.090758
+  - value: 0.090758
+  - value: 0.090758
+  - value: 0.090758
+  - value: 0.090758
+  - value: 0.090758
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $eee$ or $ee\mu$
+  - name: HNL mass
+    value: 150.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.4478
+  - value: 0.44766
+  - value: 0.43215
+  - value: 0.23414
+  - value: 0.10602
+  - value: 0.10469
+  - value: 0.10344
+  - value: 0.103
+  - value: 0.093613
+  - value: 0.057844
+  - value: 0.057652
+  - value: 0.057652
+  - value: 0.027932
+  - value: 0.026331
+  - value: 0.026325
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\mu$ or $\mu\mu e$
+  - name: HNL mass
+    value: 150.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.4478
+  - value: 0.44766
+  - value: 0.43215
+  - value: 0.23414
+  - value: 0.12129
+  - value: 0.12128
+  - value: 0.1198
+  - value: 0.11968
+  - value: 0.10874
+  - value: 0.066209
+  - value: 0.065926
+  - value: 0.065926
+  - value: 0.029092
+  - value: 0.027229
+  - value: 0.027208
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $ee\tau$
+  - name: HNL mass
+    value: 150.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 1.5835
+  - value: 1.5823
+  - value: 1.2482
+  - value: 0.584
+  - value: 0.12239
+  - value: 0.12018
+  - value: 0.1185
+  - value: 0.1178
+  - value: 0.10668
+  - value: 0.074322
+  - value: 0.074322
+  - value: 0.074322
+  - value: 0.039441
+  - value: 0.038434
+  - value: 0.038434
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\tau$
+  - name: HNL mass
+    value: 150.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 1.5835
+  - value: 1.5823
+  - value: 1.2482
+  - value: 0.584
+  - value: 0.14976
+  - value: 0.14854
+  - value: 0.14676
+  - value: 0.14664
+  - value: 0.13271
+  - value: 0.087536
+  - value: 0.087536
+  - value: 0.087536
+  - value: 0.043814
+  - value: 0.042415
+  - value: 0.042356
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $e\mu\tau$
+  - name: HNL mass
+    value: 150.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 1.5835
+  - value: 1.5823
+  - value: 1.2482
+  - value: 0.584
+  - value: 0.15374
+  - value: 0.14949
+  - value: 0.14729
+  - value: 0.14682
+  - value: 0.13347
+  - value: 0.083564
+  - value: 0.083564
+  - value: 0.083564
+  - value: 0.083564
+  - value: 0.083564
+  - value: 0.083564
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $eee$ or $ee\mu$
+  - name: HNL mass
+    value: 200.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.18997
+  - value: 0.18992
+  - value: 0.1856
+  - value: 0.10969
+  - value: 0.050338
+  - value: 0.050122
+  - value: 0.049467
+  - value: 0.049202
+  - value: 0.044543
+  - value: 0.034539
+  - value: 0.034474
+  - value: 0.034474
+  - value: 0.01671
+  - value: 0.016095
+  - value: 0.016093
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\mu$ or $\mu\mu e$
+  - name: HNL mass
+    value: 200.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.18997
+  - value: 0.18992
+  - value: 0.1856
+  - value: 0.10969
+  - value: 0.055616
+  - value: 0.055613
+  - value: 0.054968
+  - value: 0.054907
+  - value: 0.049634
+  - value: 0.038267
+  - value: 0.038163
+  - value: 0.038163
+  - value: 0.017326
+  - value: 0.016637
+  - value: 0.016628
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $ee\tau$
+  - name: HNL mass
+    value: 200.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.74094
+  - value: 0.74041
+  - value: 0.61156
+  - value: 0.303
+  - value: 0.060961
+  - value: 0.060503
+  - value: 0.059586
+  - value: 0.059277
+  - value: 0.053635
+  - value: 0.044976
+  - value: 0.044976
+  - value: 0.044976
+  - value: 0.024657
+  - value: 0.024437
+  - value: 0.024437
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\tau$
+  - name: HNL mass
+    value: 200.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.74094
+  - value: 0.74041
+  - value: 0.61156
+  - value: 0.303
+  - value: 0.070352
+  - value: 0.070025
+  - value: 0.069045
+  - value: 0.068889
+  - value: 0.062318
+  - value: 0.051261
+  - value: 0.051261
+  - value: 0.051261
+  - value: 0.026267
+  - value: 0.025769
+  - value: 0.025742
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $e\mu\tau$
+  - name: HNL mass
+    value: 200.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.74094
+  - value: 0.74041
+  - value: 0.61156
+  - value: 0.303
+  - value: 0.081325
+  - value: 0.079917
+  - value: 0.078647
+  - value: 0.078361
+  - value: 0.071375
+  - value: 0.057414
+  - value: 0.057414
+  - value: 0.057414
+  - value: 0.057414
+  - value: 0.057414
+  - value: 0.057414
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $eee$ or $ee\mu$
+  - name: HNL mass
+    value: 250.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.094148
+  - value: 0.094109
+  - value: 0.092541
+  - value: 0.058171
+  - value: 0.026616
+  - value: 0.026564
+  - value: 0.026243
+  - value: 0.026107
+  - value: 0.023512
+  - value: 0.020546
+  - value: 0.020511
+  - value: 0.020511
+  - value: 0.010797
+  - value: 0.010584
+  - value: 0.010582
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\mu$ or $\mu\mu e$
+  - name: HNL mass
+    value: 250.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.094148
+  - value: 0.094109
+  - value: 0.092541
+  - value: 0.058171
+  - value: 0.029374
+  - value: 0.029374
+  - value: 0.029048
+  - value: 0.029017
+  - value: 0.026164
+  - value: 0.022871
+  - value: 0.022834
+  - value: 0.022834
+  - value: 0.011411
+  - value: 0.011191
+  - value: 0.011183
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $ee\tau$
+  - name: HNL mass
+    value: 250.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.38739
+  - value: 0.38703
+  - value: 0.33029
+  - value: 0.16982
+  - value: 0.033506
+  - value: 0.03337
+  - value: 0.03285
+  - value: 0.032619
+  - value: 0.029304
+  - value: 0.026624
+  - value: 0.026624
+  - value: 0.026624
+  - value: 0.015682
+  - value: 0.015547
+  - value: 0.015547
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\tau$
+  - name: HNL mass
+    value: 250.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.38739
+  - value: 0.38703
+  - value: 0.33029
+  - value: 0.16982
+  - value: 0.038261
+  - value: 0.038144
+  - value: 0.037554
+  - value: 0.037512
+  - value: 0.033801
+  - value: 0.03046
+  - value: 0.03046
+  - value: 0.03046
+  - value: 0.016616
+  - value: 0.016463
+  - value: 0.016463
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $e\mu\tau$
+  - name: HNL mass
+    value: 250.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.38739
+  - value: 0.38703
+  - value: 0.33029
+  - value: 0.16982
+  - value: 0.044672
+  - value: 0.044258
+  - value: 0.043611
+  - value: 0.043345
+  - value: 0.038879
+  - value: 0.03483
+  - value: 0.03483
+  - value: 0.03483
+  - value: 0.03483
+  - value: 0.03483
+  - value: 0.03483
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $eee$ or $ee\mu$
+  - name: HNL mass
+    value: 300.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.052491
+  - value: 0.05246
+  - value: 0.051755
+  - value: 0.033821
+  - value: 0.015567
+  - value: 0.015557
+  - value: 0.01538
+  - value: 0.015279
+  - value: 0.013701
+  - value: 0.012644
+  - value: 0.012632
+  - value: 0.012632
+  - value: 0.00725
+  - value: 0.0071407
+  - value: 0.0071407
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\mu$ or $\mu\mu e$
+  - name: HNL mass
+    value: 300.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.052491
+  - value: 0.05246
+  - value: 0.051755
+  - value: 0.033821
+  - value: 0.016851
+  - value: 0.016851
+  - value: 0.016681
+  - value: 0.016661
+  - value: 0.014945
+  - value: 0.013808
+  - value: 0.013793
+  - value: 0.013793
+  - value: 0.0073133
+  - value: 0.0072044
+  - value: 0.0072012
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $ee\tau$
+  - name: HNL mass
+    value: 300.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.22092
+  - value: 0.2206
+  - value: 0.19307
+  - value: 0.10268
+  - value: 0.02037
+  - value: 0.020291
+  - value: 0.019985
+  - value: 0.019829
+  - value: 0.017745
+  - value: 0.016889
+  - value: 0.016889
+  - value: 0.016889
+  - value: 0.010294
+  - value: 0.010215
+  - value: 0.010215
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\tau$
+  - name: HNL mass
+    value: 300.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.22092
+  - value: 0.2206
+  - value: 0.19307
+  - value: 0.10268
+  - value: 0.022258
+  - value: 0.022232
+  - value: 0.021867
+  - value: 0.021847
+  - value: 0.019716
+  - value: 0.018641
+  - value: 0.018641
+  - value: 0.018641
+  - value: 0.010896
+  - value: 0.010788
+  - value: 0.010788
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $e\mu\tau$
+  - name: HNL mass
+    value: 300.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.22092
+  - value: 0.2206
+  - value: 0.19307
+  - value: 0.10268
+  - value: 0.026674
+  - value: 0.026552
+  - value: 0.026144
+  - value: 0.025988
+  - value: 0.023318
+  - value: 0.021827
+  - value: 0.021827
+  - value: 0.021827
+  - value: 0.021827
+  - value: 0.021827
+  - value: 0.021827
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $eee$ or $ee\mu$
+  - name: HNL mass
+    value: 350.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.031734
+  - value: 0.031715
+  - value: 0.031357
+  - value: 0.02122
+  - value: 0.0097747
+  - value: 0.0097692
+  - value: 0.0096586
+  - value: 0.009588
+  - value: 0.0085987
+  - value: 0.008194
+  - value: 0.0081894
+  - value: 0.0081894
+  - value: 0.0047942
+  - value: 0.0047361
+  - value: 0.0047359
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\mu$ or $\mu\mu e$
+  - name: HNL mass
+    value: 350.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.031734
+  - value: 0.031715
+  - value: 0.031357
+  - value: 0.02122
+  - value: 0.010524
+  - value: 0.010524
+  - value: 0.010408
+  - value: 0.010392
+  - value: 0.009272
+  - value: 0.0088309
+  - value: 0.0088243
+  - value: 0.0088243
+  - value: 0.0049126
+  - value: 0.0048575
+  - value: 0.0048561
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $ee\tau$
+  - name: HNL mass
+    value: 350.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.13493
+  - value: 0.13472
+  - value: 0.11931
+  - value: 0.065279
+  - value: 0.012751
+  - value: 0.012714
+  - value: 0.012491
+  - value: 0.012413
+  - value: 0.011167
+  - value: 0.010837
+  - value: 0.010837
+  - value: 0.010837
+  - value: 0.0069113
+  - value: 0.0068772
+  - value: 0.0068772
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\tau$
+  - name: HNL mass
+    value: 350.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.13493
+  - value: 0.13472
+  - value: 0.11931
+  - value: 0.065279
+  - value: 0.01365
+  - value: 0.013635
+  - value: 0.013435
+  - value: 0.013421
+  - value: 0.012048
+  - value: 0.011637
+  - value: 0.011637
+  - value: 0.011637
+  - value: 0.0070346
+  - value: 0.0070096
+  - value: 0.0070096
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $e\mu\tau$
+  - name: HNL mass
+    value: 350.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.13493
+  - value: 0.13472
+  - value: 0.11931
+  - value: 0.065279
+  - value: 0.016942
+  - value: 0.01687
+  - value: 0.016619
+  - value: 0.016515
+  - value: 0.014825
+  - value: 0.014296
+  - value: 0.014296
+  - value: 0.014296
+  - value: 0.014296
+  - value: 0.014296
+  - value: 0.014296
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $eee$ or $ee\mu$
+  - name: HNL mass
+    value: 400.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.020098
+  - value: 0.020077
+  - value: 0.019876
+  - value: 0.013871
+  - value: 0.0064041
+  - value: 0.0064018
+  - value: 0.0063294
+  - value: 0.0062848
+  - value: 0.0056168
+  - value: 0.0054395
+  - value: 0.0054372
+  - value: 0.0054372
+  - value: 0.0033101
+  - value: 0.0032856
+  - value: 0.0032853
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\mu$ or $\mu\mu e$
+  - name: HNL mass
+    value: 400.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.020098
+  - value: 0.020077
+  - value: 0.019876
+  - value: 0.013871
+  - value: 0.0068136
+  - value: 0.0068135
+  - value: 0.0067338
+  - value: 0.0067219
+  - value: 0.0060069
+  - value: 0.0058235
+  - value: 0.0058196
+  - value: 0.0058196
+  - value: 0.0034003
+  - value: 0.0033705
+  - value: 0.0033692
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $ee\tau$
+  - name: HNL mass
+    value: 400.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.086928
+  - value: 0.08674
+  - value: 0.077822
+  - value: 0.043586
+  - value: 0.0085621
+  - value: 0.0085475
+  - value: 0.0084041
+  - value: 0.0083331
+  - value: 0.0074092
+  - value: 0.007261
+  - value: 0.007261
+  - value: 0.007261
+  - value: 0.004812
+  - value: 0.0048031
+  - value: 0.0048031
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\tau$
+  - name: HNL mass
+    value: 400.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.086928
+  - value: 0.08674
+  - value: 0.077822
+  - value: 0.043586
+  - value: 0.0089207
+  - value: 0.008915
+  - value: 0.0087892
+  - value: 0.0087754
+  - value: 0.007863
+  - value: 0.0077219
+  - value: 0.0077219
+  - value: 0.0077219
+  - value: 0.0048326
+  - value: 0.0048074
+  - value: 0.0048074
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $e\mu\tau$
+  - name: HNL mass
+    value: 400.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.086928
+  - value: 0.08674
+  - value: 0.077822
+  - value: 0.043586
+  - value: 0.011403
+  - value: 0.011372
+  - value: 0.011216
+  - value: 0.011136
+  - value: 0.0099864
+  - value: 0.0097295
+  - value: 0.0097295
+  - value: 0.0097295
+  - value: 0.0097295
+  - value: 0.0097295
+  - value: 0.0097295
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $eee$ or $ee\mu$
+  - name: HNL mass
+    value: 450.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.013475
+  - value: 0.013463
+  - value: 0.013339
+  - value: 0.0095186
+  - value: 0.0043982
+  - value: 0.0043972
+  - value: 0.0043494
+  - value: 0.0043211
+  - value: 0.0038488
+  - value: 0.0037639
+  - value: 0.0037627
+  - value: 0.0037627
+  - value: 0.0023209
+  - value: 0.0023038
+  - value: 0.0023036
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\mu$ or $\mu\mu e$
+  - name: HNL mass
+    value: 450.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.013475
+  - value: 0.013463
+  - value: 0.013339
+  - value: 0.0095186
+  - value: 0.004662
+  - value: 0.004662
+  - value: 0.004615
+  - value: 0.0046086
+  - value: 0.0041114
+  - value: 0.0040273
+  - value: 0.0040258
+  - value: 0.0040258
+  - value: 0.0024211
+  - value: 0.0024033
+  - value: 0.0024021
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $ee\tau$
+  - name: HNL mass
+    value: 450.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.058034
+  - value: 0.057906
+  - value: 0.052357
+  - value: 0.02994
+  - value: 0.0058252
+  - value: 0.0058195
+  - value: 0.0057273
+  - value: 0.0056711
+  - value: 0.0050516
+  - value: 0.0049776
+  - value: 0.0049776
+  - value: 0.0049776
+  - value: 0.003392
+  - value: 0.0033797
+  - value: 0.0033797
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\tau$
+  - name: HNL mass
+    value: 450.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.058034
+  - value: 0.057906
+  - value: 0.052357
+  - value: 0.02994
+  - value: 0.0061429
+  - value: 0.0061386
+  - value: 0.0060413
+  - value: 0.006029
+  - value: 0.0054056
+  - value: 0.0053358
+  - value: 0.0053358
+  - value: 0.0053358
+  - value: 0.0034048
+  - value: 0.003393
+  - value: 0.003393
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $e\mu\tau$
+  - name: HNL mass
+    value: 450.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.058034
+  - value: 0.057906
+  - value: 0.052357
+  - value: 0.02994
+  - value: 0.0078504
+  - value: 0.0078305
+  - value: 0.0077192
+  - value: 0.0076621
+  - value: 0.0068342
+  - value: 0.006725
+  - value: 0.006725
+  - value: 0.006725
+  - value: 0.006725
+  - value: 0.006725
+  - value: 0.006725
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $eee$ or $ee\mu$
+  - name: HNL mass
+    value: 500.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.0092087
+  - value: 0.0091961
+  - value: 0.0091169
+  - value: 0.0066255
+  - value: 0.0030684
+  - value: 0.003068
+  - value: 0.0030341
+  - value: 0.0030105
+  - value: 0.0026762
+  - value: 0.0026351
+  - value: 0.0026346
+  - value: 0.0026346
+  - value: 0.0016732
+  - value: 0.0016652
+  - value: 0.0016649
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\mu$ or $\mu\mu e$
+  - name: HNL mass
+    value: 500.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.0092087
+  - value: 0.0091961
+  - value: 0.0091169
+  - value: 0.0066255
+  - value: 0.0032275
+  - value: 0.0032275
+  - value: 0.0031954
+  - value: 0.0031884
+  - value: 0.0028398
+  - value: 0.0027963
+  - value: 0.0027955
+  - value: 0.0027955
+  - value: 0.0017197
+  - value: 0.00171
+  - value: 0.0017092
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $ee\tau$
+  - name: HNL mass
+    value: 500.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.039719
+  - value: 0.039606
+  - value: 0.03613
+  - value: 0.021006
+  - value: 0.0041141
+  - value: 0.0041083
+  - value: 0.0040354
+  - value: 0.0039995
+  - value: 0.003578
+  - value: 0.003547
+  - value: 0.003547
+  - value: 0.003547
+  - value: 0.0024108
+  - value: 0.0024057
+  - value: 0.0024057
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\tau$
+  - name: HNL mass
+    value: 500.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.039719
+  - value: 0.039606
+  - value: 0.03613
+  - value: 0.021006
+  - value: 0.0043277
+  - value: 0.0043252
+  - value: 0.0042645
+  - value: 0.0042558
+  - value: 0.0037912
+  - value: 0.0037506
+  - value: 0.0037506
+  - value: 0.0037506
+  - value: 0.0024406
+  - value: 0.0024324
+  - value: 0.0024306
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $e\mu\tau$
+  - name: HNL mass
+    value: 500.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.039719
+  - value: 0.039606
+  - value: 0.03613
+  - value: 0.021006
+  - value: 0.0054267
+  - value: 0.0054153
+  - value: 0.0053239
+  - value: 0.0052695
+  - value: 0.0046567
+  - value: 0.0045978
+  - value: 0.0045978
+  - value: 0.0045978
+  - value: 0.0045978
+  - value: 0.0045978
+  - value: 0.0045978
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $eee$ or $ee\mu$
+  - name: HNL mass
+    value: 600.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.006236
+  - value: 0.0062254
+  - value: 0.0061733
+  - value: 0.0044357
+  - value: 0.0020267
+  - value: 0.0020267
+  - value: 0.0019943
+  - value: 0.0019786
+  - value: 0.001734
+  - value: 0.0017131
+  - value: 0.0017128
+  - value: 0.0017128
+  - value: 0.0011209
+  - value: 0.0011156
+  - value: 0.0011154
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\mu$ or $\mu\mu e$
+  - name: HNL mass
+    value: 600.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.006236
+  - value: 0.0062254
+  - value: 0.0061733
+  - value: 0.0044357
+  - value: 0.0021561
+  - value: 0.0021561
+  - value: 0.0021242
+  - value: 0.0021193
+  - value: 0.0018607
+  - value: 0.0018388
+  - value: 0.0018382
+  - value: 0.0018382
+  - value: 0.0011609
+  - value: 0.0011556
+  - value: 0.0011549
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $ee\tau$
+  - name: HNL mass
+    value: 600.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.02679
+  - value: 0.026711
+  - value: 0.024489
+  - value: 0.014069
+  - value: 0.0027004
+  - value: 0.0026991
+  - value: 0.0026441
+  - value: 0.0026137
+  - value: 0.0023038
+  - value: 0.0022902
+  - value: 0.0022902
+  - value: 0.0022902
+  - value: 0.0015971
+  - value: 0.0015957
+  - value: 0.0015957
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\tau$
+  - name: HNL mass
+    value: 600.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.02679
+  - value: 0.026711
+  - value: 0.024489
+  - value: 0.014069
+  - value: 0.0028036
+  - value: 0.0028023
+  - value: 0.0027503
+  - value: 0.0027408
+  - value: 0.0024004
+  - value: 0.0023848
+  - value: 0.0023848
+  - value: 0.0023848
+  - value: 0.0015887
+  - value: 0.0015851
+  - value: 0.0015842
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $e\mu\tau$
+  - name: HNL mass
+    value: 600.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.02679
+  - value: 0.026711
+  - value: 0.024489
+  - value: 0.014069
+  - value: 0.0036286
+  - value: 0.0036257
+  - value: 0.0035471
+  - value: 0.0035177
+  - value: 0.0030978
+  - value: 0.0030697
+  - value: 0.0030697
+  - value: 0.0030697
+  - value: 0.0030697
+  - value: 0.0030697
+  - value: 0.0030697
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $eee$ or $ee\mu$
+  - name: HNL mass
+    value: 700.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.0037494
+  - value: 0.0037428
+  - value: 0.0037108
+  - value: 0.0026848
+  - value: 0.0012267
+  - value: 0.0012266
+  - value: 0.0012068
+  - value: 0.0011968
+  - value: 0.0010461
+  - value: 0.0010379
+  - value: 0.0010376
+  - value: 0.0010376
+  - value: 0.00069327
+  - value: 0.00069063
+  - value: 0.00069058
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\mu$ or $\mu\mu e$
+  - name: HNL mass
+    value: 700.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.0037494
+  - value: 0.0037428
+  - value: 0.0037108
+  - value: 0.0026848
+  - value: 0.001295
+  - value: 0.001295
+  - value: 0.0012753
+  - value: 0.0012725
+  - value: 0.0011141
+  - value: 0.0011061
+  - value: 0.0011058
+  - value: 0.0011058
+  - value: 0.00072143
+  - value: 0.00071808
+  - value: 0.00071754
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $ee\tau$
+  - name: HNL mass
+    value: 700.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.016002
+  - value: 0.015949
+  - value: 0.014713
+  - value: 0.0085596
+  - value: 0.0016448
+  - value: 0.0016433
+  - value: 0.001609
+  - value: 0.0015892
+  - value: 0.0013904
+  - value: 0.001386
+  - value: 0.001386
+  - value: 0.001386
+  - value: 0.00097985
+  - value: 0.00097891
+  - value: 0.00097891
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\tau$
+  - name: HNL mass
+    value: 700.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.016002
+  - value: 0.015949
+  - value: 0.014713
+  - value: 0.0085596
+  - value: 0.0016515
+  - value: 0.0016506
+  - value: 0.0016239
+  - value: 0.001618
+  - value: 0.0014188
+  - value: 0.0014107
+  - value: 0.0014107
+  - value: 0.0014107
+  - value: 0.0009737
+  - value: 0.00097182
+  - value: 0.00097174
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $e\mu\tau$
+  - name: HNL mass
+    value: 700.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.016002
+  - value: 0.015949
+  - value: 0.014713
+  - value: 0.0085596
+  - value: 0.0022393
+  - value: 0.0022385
+  - value: 0.0021899
+  - value: 0.0021678
+  - value: 0.0018948
+  - value: 0.0018804
+  - value: 0.0018804
+  - value: 0.0018804
+  - value: 0.0018804
+  - value: 0.0018804
+  - value: 0.0018804
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $eee$ or $ee\mu$
+  - name: HNL mass
+    value: 800.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.0023802
+  - value: 0.0023746
+  - value: 0.0023558
+  - value: 0.0017244
+  - value: 0.00078959
+  - value: 0.00078953
+  - value: 0.00077691
+  - value: 0.00076969
+  - value: 0.00067168
+  - value: 0.00066794
+  - value: 0.00066783
+  - value: 0.00066783
+  - value: 0.00045192
+  - value: 0.00045038
+  - value: 0.00045035
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\mu$ or $\mu\mu e$
+  - name: HNL mass
+    value: 800.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.0023802
+  - value: 0.0023746
+  - value: 0.0023558
+  - value: 0.0017244
+  - value: 0.00083166
+  - value: 0.00083166
+  - value: 0.00081832
+  - value: 0.00081667
+  - value: 0.00071102
+  - value: 0.00070678
+  - value: 0.00070668
+  - value: 0.00070668
+  - value: 0.00046671
+  - value: 0.00046477
+  - value: 0.00046434
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $ee\tau$
+  - name: HNL mass
+    value: 800.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.010087
+  - value: 0.010051
+  - value: 0.0093127
+  - value: 0.0054753
+  - value: 0.001039
+  - value: 0.0010382
+  - value: 0.0010157
+  - value: 0.0010022
+  - value: 0.00087582
+  - value: 0.0008728
+  - value: 0.0008728
+  - value: 0.0008728
+  - value: 0.00062581
+  - value: 0.00062499
+  - value: 0.00062499
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\tau$
+  - name: HNL mass
+    value: 800.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.010087
+  - value: 0.010051
+  - value: 0.0093127
+  - value: 0.0054753
+  - value: 0.0010595
+  - value: 0.0010589
+  - value: 0.0010344
+  - value: 0.0010316
+  - value: 0.00090051
+  - value: 0.00089731
+  - value: 0.00089731
+  - value: 0.00089731
+  - value: 0.00061996
+  - value: 0.00061935
+  - value: 0.00061909
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $e\mu\tau$
+  - name: HNL mass
+    value: 800.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.010087
+  - value: 0.010051
+  - value: 0.0093127
+  - value: 0.0054753
+  - value: 0.0014293
+  - value: 0.0014278
+  - value: 0.0013964
+  - value: 0.0013814
+  - value: 0.0012102
+  - value: 0.0012034
+  - value: 0.0012034
+  - value: 0.0012034
+  - value: 0.0012034
+  - value: 0.0012034
+  - value: 0.0012034
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $eee$ or $ee\mu$
+  - name: HNL mass
+    value: 900.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.0015898
+  - value: 0.001586
+  - value: 0.0015735
+  - value: 0.0011504
+  - value: 0.00052479
+  - value: 0.00052477
+  - value: 0.00051599
+  - value: 0.0005107
+  - value: 0.00044454
+  - value: 0.00044256
+  - value: 0.00044239
+  - value: 0.00044239
+  - value: 0.00030326
+  - value: 0.00030256
+  - value: 0.00030254
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\mu$ or $\mu\mu e$
+  - name: HNL mass
+    value: 900.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.0015898
+  - value: 0.001586
+  - value: 0.0015735
+  - value: 0.0011504
+  - value: 0.00055382
+  - value: 0.00055382
+  - value: 0.00054455
+  - value: 0.00054313
+  - value: 0.00047319
+  - value: 0.00047118
+  - value: 0.00047108
+  - value: 0.00047108
+  - value: 0.00031657
+  - value: 0.00031572
+  - value: 0.00031545
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $ee\tau$
+  - name: HNL mass
+    value: 900.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.0067054
+  - value: 0.006676
+  - value: 0.0062069
+  - value: 0.0036621
+  - value: 0.00069763
+  - value: 0.00069702
+  - value: 0.00067989
+  - value: 0.00067012
+  - value: 0.00058343
+  - value: 0.00058187
+  - value: 0.00058187
+  - value: 0.00058187
+  - value: 0.00042644
+  - value: 0.00042634
+  - value: 0.00042634
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\tau$
+  - name: HNL mass
+    value: 900.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.0067054
+  - value: 0.006676
+  - value: 0.0062069
+  - value: 0.0036621
+  - value: 0.00069534
+  - value: 0.00069543
+  - value: 0.00067624
+  - value: 0.00067386
+  - value: 0.00058485
+  - value: 0.00058328
+  - value: 0.00058328
+  - value: 0.00058328
+  - value: 0.00040511
+  - value: 0.00040435
+  - value: 0.00040432
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $e\mu\tau$
+  - name: HNL mass
+    value: 900.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.0067054
+  - value: 0.006676
+  - value: 0.0062069
+  - value: 0.0036621
+  - value: 0.00095628
+  - value: 0.00095525
+  - value: 0.00093239
+  - value: 0.00092084
+  - value: 0.00080726
+  - value: 0.00080515
+  - value: 0.00080515
+  - value: 0.00080515
+  - value: 0.00080515
+  - value: 0.00080515
+  - value: 0.00080515
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $eee$ or $ee\mu$
+  - name: HNL mass
+    value: 1000.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.0010225
+  - value: 0.0010199
+  - value: 0.0010121
+  - value: 0.00073561
+  - value: 0.00033715
+  - value: 0.00033716
+  - value: 0.00033092
+  - value: 0.00032786
+  - value: 0.00028493
+  - value: 0.0002841
+  - value: 0.00028403
+  - value: 0.00028403
+  - value: 0.00019487
+  - value: 0.00019422
+  - value: 0.00019419
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\mu$ or $\mu\mu e$
+  - name: HNL mass
+    value: 1000.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.0010225
+  - value: 0.0010199
+  - value: 0.0010121
+  - value: 0.00073561
+  - value: 0.0003515
+  - value: 0.0003515
+  - value: 0.00034524
+  - value: 0.00034434
+  - value: 0.00030009
+  - value: 0.00029896
+  - value: 0.00029889
+  - value: 0.00029889
+  - value: 0.0002027
+  - value: 0.00020212
+  - value: 0.00020191
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $ee\tau$
+  - name: HNL mass
+    value: 1000.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.0046529
+  - value: 0.0046299
+  - value: 0.0043113
+  - value: 0.0025255
+  - value: 0.00047729
+  - value: 0.00047674
+  - value: 0.00046436
+  - value: 0.00045808
+  - value: 0.00039694
+  - value: 0.00039614
+  - value: 0.00039614
+  - value: 0.00039614
+  - value: 0.00029349
+  - value: 0.00029356
+  - value: 0.00029356
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $\mu\mu\tau$
+  - name: HNL mass
+    value: 1000.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.0046529
+  - value: 0.0046299
+  - value: 0.0043113
+  - value: 0.0025255
+  - value: 0.00047855
+  - value: 0.00047845
+  - value: 0.00046623
+  - value: 0.00046423
+  - value: 0.00040579
+  - value: 0.00040509
+  - value: 0.00040509
+  - value: 0.00040509
+  - value: 0.00028875
+  - value: 0.00028838
+  - value: 0.00028838
+- header:
+    name: Number of passing events
+  qualifiers:
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  - name: Final State
+    value: $e\mu\tau$
+  - name: HNL mass
+    value: 1000.0 GeV
+  - name: $|V_{N\tau}|^2$
+    value: '0.0001'
+  values:
+  - value: 0.0046529
+  - value: 0.0046299
+  - value: 0.0043113
+  - value: 0.0025255
+  - value: 0.00066883
+  - value: 0.00066834
+  - value: 0.00065101
+  - value: 0.00064197
+  - value: 0.00056356
+  - value: 0.00056238
+  - value: 0.00056238
+  - value: 0.00056238
+  - value: 0.00056238
+  - value: 0.00056238
+  - value: 0.00056238
+independent_variables:
+- header:
+    name: Requirement
+  values:
+  - value: total
+  - value: passes $p_T^{\textrm{miss}}$ filters
+  - value: passes trigger
+  - value: three tight leptons
+  - value: pass final state selection
+  - value: passes offline trigger thresholds
+  - value: no fourth FO lepton
+  - value: veto on three same signs
+  - value: b-veto
+  - value: $p_T(\textrm{leading lepton}) > 55$GeV
+  - value: $p_T(\textrm{subleading lepton}) > 15$GeV
+  - value: $p_T(\textrm{trailing lepton}) > 10$GeV
+  - value: $|m(2l|\textrm{OSSF}) - m_Z| > 15$GeV
+  - value: $|m(3l) - m_Z| > 15$GeV
+  - value: min $m(2l|\textrm{OSSF}) > 5$GeV

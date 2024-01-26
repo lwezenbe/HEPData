@@ -76,7 +76,11 @@ def addBackgroundAndData(table, numbers_eem, numbers_emm, numbers_tee, numbers_t
 flavor_tex_dict = {'e' : 'e', 'mu' : '\mu', 'tau' : '\\tau'}
 def returnSignalVar(numbers, channel, flavor):
     from hnlTools import getSignalMass, getSignalFlavor, getSignalCouplingSquared
-    masses = sorted([getSignalMass(sk) for sk in numbers['signal'].keys() if 'HNL' in sk])
+    masses = set()
+    for sk in numbers['signal'].keys():
+        if 'HNL' in sk:
+            masses.add(getSignalMass(sk))
+    masses = sorted([sk for sk in masses])
     out_yields = []
     for mass in masses:
         for sk in numbers['signal']:
@@ -85,7 +89,7 @@ def returnSignalVar(numbers, channel, flavor):
             else:
                 out_yields.append(createYieldVariable(numbers['signal'][sk]['nominal'], numbers['signal'][sk]['up'], numbers['signal'][sk]['down']))
                 out_yields[-1].add_qualifier('HNL mass', '{0} GeV'.format(mass))
-                out_yields[-1].add_qualifier('$|V_{N'+flavor_tex_dict[getSignalFlavor(sk)]+'}|^2$', str(getSignalCouplingSquared(sk)))
+                out_yields[-1].add_qualifier('$|V_{'+flavor_tex_dict[getSignalFlavor(sk)]+'N}|^2$', str(getSignalCouplingSquared(sk)))
                 out_yields[-1].add_qualifier('Channel', channel)
 
     return out_yields
@@ -211,42 +215,6 @@ def addLowMassTables(submission):
     addCommonKeywordsTo(table_tcoupl)
     submission.add_table(table_tcoupl)
  
-
-#def addLowMassBDTtables(submission):
-#    from hepdata_lib import Table, Variable
-#    bins = Variable("BDT score",
-#                    is_independent = True,
-#                    is_binned = True,
-#                    units = ""
-#    )
-#
-#    def loadJsons(bdt):
-#        import json
-#        eem_path = '/user/lwezenbe/private/PhD/Analysis_CMSSW_10_2_22/CMSSW_10_2_22/src/HNL/Stat/data/output/HEPDATA/LowMass/{0}/EEE-Mu.json'.format(bdt)
-#        with open(eem_path, 'r') as infile:
-#            numbers_eem = json.load(infile)
-#        emm_path = '/user/lwezenbe/private/PhD/Analysis_CMSSW_10_2_22/CMSSW_10_2_22/src/HNL/Stat/data/output/HEPDATA/LowMass/{0}/MuMuMu-E.json'.format(bdt)
-#        with open(emm_path, 'r') as infile:
-#            numbers_emm = json.load(infile)
-#        tee_path = '/user/lwezenbe/private/PhD/Analysis_CMSSW_10_2_22/CMSSW_10_2_22/src/HNL/Stat/data/output/HEPDATA/LowMass/{0}/TauEE.json'.format(bdt)
-#        with open(tee_path, 'r') as infile:
-#            numbers_tee = json.load(infile)
-#        tmm_path = '/user/lwezenbe/private/PhD/Analysis_CMSSW_10_2_22/CMSSW_10_2_22/src/HNL/Stat/data/output/HEPDATA/LowMass/{0}/TauMuMu.json'.format(bdt)
-#        with open(tmm_path, 'r') as infile:
-#            numbers_tmm = json.load(infile)
-#        tem_path = '/user/lwezenbe/private/PhD/Analysis_CMSSW_10_2_22/CMSSW_10_2_22/src/HNL/Stat/data/output/HEPDATA/LowMass/{0}/TauEMu.json'.format(bdt)
-#        with open(tem_path, 'r') as infile:
-#            numbers_tem = json.load(infile)
-#        return (numbers_eem, numbers_emm, numbers_tee, numbers_tmm, numbers_tem)
-#
-#    numbers_eem, numbers_emm, numbers_tee, numbers_tmm, numbers_tem = loadJsons('e')
-#    table_bkgr = Table("Data and background BDT(10-40, e, 0$tau_h$) yields (Low Mass Region L9-12)")
-#    bins.values
-#    table_bkgr.add_variable(bins)
-#    addBackgroundAndData(table_bkgr, numbers_eem, numbers_emm, numbers_tee, numbers_tmm, numbers_tem)
-#    addCommonKeywordsTo(table_bkgr)
-#    submission.add_table(table_bkgr)
-
 
 def addHighMassTablesHa(submission):
     from hepdata_lib import Table, Variable
@@ -494,9 +462,141 @@ def addHighMassTablesHb(submission):
     addCommonKeywordsTo(table_tcoupl)
     submission.add_table(table_tcoupl)
 
+def addHighMassTables(submission):
+    from hepdata_lib import Table, Variable
+
+    #First get the independent variables
+    bins_binnb = Variable("bin number",
+                    is_independent = True,
+                    is_binned = False,
+                    units = ""    
+                    )
+    bins_binnb.values = ['Ha{0}'.format(x) for x in range(1, 10)] + ['Hb{0}'.format(x) for x in range(1, 17)]
+    
+    bins_m3l = Variable("$m(3l)$",
+                    is_independent = True,
+                    is_binned = False,
+                    units = GEV    
+                    )
+    bins_m3l.values = ["<100", "<100", ">100", ">100", ">100", ">100", ">100", ">100", ">100", "<75", "<75", "<75", ">105", ">105", ">105", ">105", ">105", ">105", ">105", ">105", ">105", ">105", ">105", ">105", ">105"]
+    
+    bins_minMos = Variable("min $m(2l|$OS)",
+                    is_independent = True,
+                    is_binned = False,
+                    units = GEV    
+                    )
+    bins_minMos.values = ["any", "any", "<100", "<100", "<100", "<100", "100 to 200", "100 to 200", ">200", "any", "any", "any", "<100", "<100", "<100", "<100", "<100", "100 to 200", "100 to 200", "100 to 200", "100 to 200", ">200", ">200", ">200", ">200"]
+    
+    bins_mt = Variable("$m_T$",
+                    is_independent = True,
+                    is_binned = False,
+                    units = GEV    
+                    )
+    bins_mt.values = ["<100", ">100", "<100", "100 to 150", "150 to 250", ">250", "<100", ">100", "any", "<100", "100 to 200", ">200", "<100", "100 to 200", "200 to 300", "300 to 400",">400", "<100", "100 to 200", "200 to 300", ">300", "<100", "100 to 200", "200 to 300", ">300"]
+    
+    bins_ossf = Variable("OSSF pair",
+                    is_independent = True,
+                    is_binned = False,
+                    units = ""
+                    )
+    bins_ossf.values = ["No"] * 9 + ["Yes"] * 16
+
+    #Create Table for background and data yields
+    #Start by loading in the json
+    def loadJsons():
+        import json
+        eem_path = '/user/lwezenbe/private/PhD/Analysis_CMSSW_10_2_22/CMSSW_10_2_22/src/HNL/Stat/data/output/HEPDATA/HighMass/SR/EEE-Mu.json'
+        with open(eem_path, 'r') as infile:
+            numbers_eem = json.load(infile)
+        emm_path = '/user/lwezenbe/private/PhD/Analysis_CMSSW_10_2_22/CMSSW_10_2_22/src/HNL/Stat/data/output/HEPDATA/HighMass/SR/MuMuMu-E.json'
+        with open(emm_path, 'r') as infile:
+            numbers_emm = json.load(infile)
+        tee_path = '/user/lwezenbe/private/PhD/Analysis_CMSSW_10_2_22/CMSSW_10_2_22/src/HNL/Stat/data/output/HEPDATA/HighMass/SR/TauEE.json'
+        with open(tee_path, 'r') as infile:
+            numbers_tee = json.load(infile)
+        tmm_path = '/user/lwezenbe/private/PhD/Analysis_CMSSW_10_2_22/CMSSW_10_2_22/src/HNL/Stat/data/output/HEPDATA/HighMass/SR/TauMuMu.json'
+        with open(tmm_path, 'r') as infile:
+            numbers_tmm = json.load(infile)
+        tem_path = '/user/lwezenbe/private/PhD/Analysis_CMSSW_10_2_22/CMSSW_10_2_22/src/HNL/Stat/data/output/HEPDATA/HighMass/SR/TauEMu.json'
+        with open(tem_path, 'r') as infile:
+            numbers_tem = json.load(infile)
+        return (numbers_eem, numbers_emm, numbers_tee, numbers_tmm, numbers_tem)
+
+    numbers_eem, numbers_emm, numbers_tee, numbers_tmm, numbers_tem = loadJsons()
+
+    table_bkgr = Table("Data and background yields (High Mass Region)")
+    table_bkgr.add_variable(bins_binnb)
+    table_bkgr.add_variable(bins_m3l)
+    table_bkgr.add_variable(bins_minMos)
+    table_bkgr.add_variable(bins_mt)
+    table_bkgr.add_variable(bins_ossf)
+    addBackgroundAndData(table_bkgr, numbers_eem, numbers_emm, numbers_tee, numbers_tmm, numbers_tem)
+    addCommonKeywordsTo(table_bkgr)
+    submission.add_table(table_bkgr)
+
+    #Signal Tables
+    yields_eem = []
+    yields_emm = []
+
+    flavor_tex_dict = {'e' : 'e', 'mu' : '\mu', 'tau' : '\\tau'}
+
+    #E-coupling
+    numbers_eem, numbers_emm, numbers_tee, numbers_tmm, numbers_tem = loadJsons()
+    yields = {}
+    yields['eem'] = returnSignalVar(numbers_eem, '$e^{\pm}e^{\pm}\mu$', 'e')
+    yields['emm'] = returnSignalVar(numbers_emm, '$\mu^{\pm}\mu^{\pm}e$', 'e')
+
+    table_ecoupl = Table("Predicted signal yields (High Mass Region, $e$-coupling)")
+    table_ecoupl.add_variable(bins_binnb)
+    table_ecoupl.add_variable(bins_m3l)
+    table_ecoupl.add_variable(bins_minMos)
+    table_ecoupl.add_variable(bins_mt)
+    for k in yields.keys():
+        for s in yields[k]:
+            table_ecoupl.add_variable(s)
+    addCommonKeywordsTo(table_ecoupl)
+    submission.add_table(table_ecoupl)
+
+    #Mu-coupling
+    numbers_eem, numbers_emm, numbers_tee, numbers_tmm, numbers_tem = loadJsons()
+    yields = {}
+    yields['eem'] = returnSignalVar(numbers_eem, '$e^{\pm}e^{\pm}\mu$', 'mu')
+    yields['emm'] = returnSignalVar(numbers_emm, '$\mu^{\pm}\mu^{\pm}e$', 'mu')
+
+    table_mcoupl = Table("Predicted signal yields (High Mass Region, $\mu$-coupling)")
+    table_mcoupl.add_variable(bins_binnb)
+    table_mcoupl.add_variable(bins_m3l)
+    table_mcoupl.add_variable(bins_minMos)
+    table_mcoupl.add_variable(bins_mt)
+    for k in yields.keys():
+        for s in yields[k]:
+            table_mcoupl.add_variable(s)
+    addCommonKeywordsTo(table_mcoupl)
+    submission.add_table(table_mcoupl)
+
+    #tau-coupling
+    numbers_eem, numbers_emm, numbers_tee, numbers_tmm, numbers_tem = loadJsons()
+    yields = {}
+    yields['eem'] = returnSignalVar(numbers_eem, '$e^{\pm}e^{\pm}\mu$', 'tau')
+    yields['emm'] = returnSignalVar(numbers_emm, '$\mu^{\pm}\mu^{\pm}e$', 'tau')
+    yields['tee'] = returnSignalVar(numbers_tee, '$e^{\pm}e^{\pm}\\tau$', 'tau')
+    yields['tmm'] = returnSignalVar(numbers_tmm, '$\mu^{\pm}\mu^{\pm}\\tau$', 'tau')
+    yields['tem'] = returnSignalVar(numbers_tem, '$e\mu\\tau$', 'tau')
+
+    table_tcoupl = Table("Predicted signal yields (High Mass Region, $\\tau$-coupling)")
+    table_tcoupl.add_variable(bins_binnb)
+    table_tcoupl.add_variable(bins_m3l)
+    table_tcoupl.add_variable(bins_minMos)
+    table_tcoupl.add_variable(bins_mt)
+    for k in yields.keys():
+        for s in yields[k]:
+            table_tcoupl.add_variable(s)
+    addCommonKeywordsTo(table_tcoupl)
+    submission.add_table(table_tcoupl)
 
 def addAllYieldTables(submission):
     addLowMassTables(submission)
+    addHighMassTables(submission)
 #    addHighMassTablesHa(submission)
 #    addHighMassTablesHb(submission)
 
