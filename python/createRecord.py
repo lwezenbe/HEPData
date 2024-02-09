@@ -23,8 +23,8 @@ addFiguresTo(submission)
 from createPostFitYields import addAllYieldTables
 addAllYieldTables(submission)
 
-#from createCutFlows import addCutflowTo
-#addCutflowTo(submission)
+from createCutFlows import addCutflowTo
+addCutflowTo(submission)
 
 submission.create_files(out_path+'/submission')
 os.system('mv submission.tar.gz {0}/.'.format(out_path))

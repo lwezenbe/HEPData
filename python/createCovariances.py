@@ -87,11 +87,15 @@ def addLowMassTablesTo(submission):
     table_lowmass = createTable('../data/Covar/test.root', x_labels, 'Covariance Matrix (Low Mass SR)')
     submission.add_table(table_lowmass)
 
+def addHighMassTablesTo(submission):
+    table_highmass_ha = createTable('../data/Covar/highMassSR-Ha.root', x_labels, 'Covariance Matrix (High Mass SR Ha)')
+    submission.add_table(table_highmass_ha)
+
 if __name__ == '__main__':
     from hepdata_lib import Submission
 
     submission = Submission()
-    addLowMassTablesTo(submission)
+    addHighMassTablesTo(submission)
     submission.create_files('./submission')
  
 
