@@ -1,0 +1,267 @@
+dependent_variables:
+- header:
+    name: Observed
+  qualifiers:
+  - name: Limits
+    value: "Exclusion limit on $|V_{\tauN}|^2$"
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  values:
+  - value: 0.00075437
+  - value: 0.000526
+  - value: 0.00062761
+  - value: 0.0005104
+  - value: 0.00053425
+  - value: 0.00064295
+  - value: 0.00056866
+  - value: 0.00083825
+  - value: 0.00089819
+  - value: 0.0019005
+  - value: 0.024369
+  - value: 0.26979
+  - value: 0.086876
+  - value: 0.092318
+  - value: 0.11303
+  - value: 0.14763
+  - value: 0.13908
+  - value: 0.16985
+  - value: 0.21139
+  - value: 0.273
+  - value: 0.33067
+  - value: 0.432
+  - value: 0.59063
+  - value: 0.88346
+  - value: 1.2368
+  - value: 1.7177
+  - value: 2.3898
+- header:
+    name: Expected
+  qualifiers:
+  - name: Limits
+    value: "Exclusion limit on $|V_{\tauN}|^2$"
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  values:
+  - value: 0.00072538
+  - value: 0.00048045
+  - value: 0.00049765
+  - value: 0.00049138
+  - value: 0.00049219
+  - value: 0.00058019
+  - value: 0.00059062
+  - value: 0.00055312
+  - value: 0.00069727
+  - value: 0.0016875
+  - value: 0.024141
+  - value: 0.23926
+  - value: 0.10078
+  - value: 0.081641
+  - value: 0.089844
+  - value: 0.12109
+  - value: 0.13281
+  - value: 0.17568
+  - value: 0.23291
+  - value: 0.30469
+  - value: 0.3584
+  - value: 0.46094
+  - value: 0.61719
+  - value: 0.89453
+  - value: 1.2891
+  - value: 1.8359
+  - value: 2.4609
+- header:
+    name: 68% exp. lower
+  qualifiers:
+  - name: Limits
+    value: "Exclusion limit on $|V_{\tauN}|^2$"
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  values:
+  - value: 0.0005215
+  - value: 0.000349
+  - value: 0.00041397
+  - value: 0.00040778
+  - value: 0.00034346
+  - value: 0.00045244
+  - value: 0.00041182
+  - value: 0.00039044
+  - value: 0.00049218
+  - value: 0.0011871
+  - value: 0.016982
+  - value: 0.17004
+  - value: 0.071994
+  - value: 0.05832
+  - value: 0.06418
+  - value: 0.085477
+  - value: 0.093108
+  - value: 0.12316
+  - value: 0.16328
+  - value: 0.2136
+  - value: 0.25039
+  - value: 0.3214
+  - value: 0.4297
+  - value: 0.6228
+  - value: 0.89748
+  - value: 1.2712
+  - value: 1.7039
+- header:
+    name: 68% exp. higher
+  qualifiers:
+  - name: Limits
+    value: "Exclusion limit on $|V_{\tauN}|^2$"
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  values:
+  - value: 0.0010494
+  - value: 0.00070773
+  - value: 0.00071837
+  - value: 0.00069909
+  - value: 0.00071192
+  - value: 0.0007807
+  - value: 0.00086372
+  - value: 0.00079565
+  - value: 0.001003
+  - value: 0.0024341
+  - value: 0.034918
+  - value: 0.3394
+  - value: 0.14256
+  - value: 0.11548
+  - value: 0.12745
+  - value: 0.17371
+  - value: 0.1921
+  - value: 0.25482
+  - value: 0.33689
+  - value: 0.4395
+  - value: 0.52126
+  - value: 0.66855
+  - value: 0.9001
+  - value: 1.3046
+  - value: 1.88
+  - value: 2.6775
+  - value: 3.6086
+- header:
+    name: 95% exp. lower
+  qualifiers:
+  - name: Limits
+    value: "Exclusion limit on $|V_{\tauN}|^2$"
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  values:
+  - value: 0.00044021
+  - value: 0.00023885
+  - value: 0.00031286
+  - value: 0.00030872
+  - value: 0.00025571
+  - value: 0.00036972
+  - value: 0.00030454
+  - value: 0.00028953
+  - value: 0.00036497
+  - value: 0.00087671
+  - value: 0.012542
+  - value: 0.12711
+  - value: 0.05354
+  - value: 0.043372
+  - value: 0.047729
+  - value: 0.063385
+  - value: 0.068481
+  - value: 0.090587
+  - value: 0.12009
+  - value: 0.1571
+  - value: 0.1834
+  - value: 0.23767
+  - value: 0.31342
+  - value: 0.45425
+  - value: 0.6546
+  - value: 0.93231
+  - value: 1.2497
+- header:
+    name: 95% exp. higher
+  qualifiers:
+  - name: Limits
+    value: "Exclusion limit on $|V_{\tauN}|^2$"
+  - name: SQRT(S)
+    units: TeV
+    value: 13
+  - name: LUMINOSITY
+    units: fb$^{-1}$
+    value: 138
+  values:
+  - value: 0.0017645
+  - value: 0.00097671
+  - value: 0.00098007
+  - value: 0.00095705
+  - value: 0.00099087
+  - value: 0.0011301
+  - value: 0.0012097
+  - value: 0.0011038
+  - value: 0.0013914
+  - value: 0.0033719
+  - value: 0.0486
+  - value: 0.46524
+  - value: 0.19442
+  - value: 0.15698
+  - value: 0.17356
+  - value: 0.23981
+  - value: 0.26738
+  - value: 0.35414
+  - value: 0.46744
+  - value: 0.60881
+  - value: 0.72781
+  - value: 0.92914
+  - value: 1.2625
+  - value: 1.8299
+  - value: 2.6529
+  - value: 3.7784
+  - value: 5.1071
+independent_variables:
+- header:
+    name: HNL mass
+    units: GeV
+  values:
+  - value: 10.0
+  - value: 15.0
+  - value: 20.0
+  - value: 25.0
+  - value: 30.0
+  - value: 30.0
+  - value: 40.0
+  - value: 40.0
+  - value: 50.0
+  - value: 60.0
+  - value: 75.0
+  - value: 85.0
+  - value: 100.0
+  - value: 125.0
+  - value: 150.0
+  - value: 200.0
+  - value: 250.0
+  - value: 300.0
+  - value: 350.0
+  - value: 400.0
+  - value: 450.0
+  - value: 500.0
+  - value: 600.0
+  - value: 700.0
+  - value: 800.0
+  - value: 900.0
+  - value: 1000.0

@@ -20,8 +20,11 @@ submission = Submission()
 from createLimits import addFiguresTo
 addFiguresTo(submission)
 
-from createPostFitYields import addAllYieldTables
+from createPostfitYields import addAllYieldTables
 addAllYieldTables(submission)
+
+from createCovariances import addAllCovarTo
+addAllCovarTo(submission)
 
 from createCutFlows import addCutflowTo
 addCutflowTo(submission)

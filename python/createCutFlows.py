@@ -203,14 +203,20 @@ def addCutflowTo(submission):
     #
     in_path_lowmass_e = '../data/cutflows/low_mass_e.json'
     table_lowmass_e = createCutFlowTable(in_path_lowmass_e, ['EEE-Mu', 'MuMuMu-E'], 'Cut flow: e-coupling, low mass region')
+    table_lowmass_e.description = "Simulated signal yields passing each stage of the low mass region selection as function of HNL mass and signal strength. Shown for exclusive coupling between a Majorana HNL and an electron neutrino."
+    table_lowmass_e.location = ""
     submission.add_table(table_lowmass_e)
     
     in_path_lowmass_mu = '../data/cutflows/low_mass_mu.json'
     table_lowmass_mu = createCutFlowTable(in_path_lowmass_mu, ['EEE-Mu', 'MuMuMu-E'], 'Cut flow: mu-coupling, low mass region')
+    table_lowmass_mu.description = "Simulated signal yields passing each stage of the low mass region selection as function of HNL mass and signal strength. Shown for exclusive coupling between a Majorana HNL and a muon neutrino."
+    table_lowmass_mu.location = ""
     submission.add_table(table_lowmass_mu)
     
     in_path_lowmass_tau = '../data/cutflows/low_mass_tau.json'
     table_lowmass_tau = createCutFlowTable(in_path_lowmass_tau, ['EEE-Mu', 'MuMuMu-E', 'TauEE', 'TauMuMu', 'TauEMu'], 'Cut flow: tau-coupling, low mass region')
+    table_lowmass_tau.description = "Simulated signal yields passing each stage of the low mass region selection as function of HNL mass and signal strength. Shown for exclusive coupling between a Majorana HNL and a tau neutrino."
+    table_lowmass_tau.location = ""
     submission.add_table(table_lowmass_tau)
 
     #
@@ -218,14 +224,20 @@ def addCutflowTo(submission):
     #
     in_path_highmass_e = '../data/cutflows/high_mass_e.json'
     table_highmass_e = createCutFlowTable(in_path_highmass_e, ['EEE-Mu', 'MuMuMu-E'], 'Cut flow: e-coupling, high mass region')
+    table_highmass_e.description = "Simulated signal yields passing each stage of the high mass region selection as function of HNL mass and signal strength. Shown for exclusive coupling between a Majorana HNL and an electron neutrino."
+    table_highmass_e.location = ""
     submission.add_table(table_highmass_e)
     
     in_path_highmass_mu = '../data/cutflows/high_mass_mu.json'
     table_highmass_mu = createCutFlowTable(in_path_highmass_mu, ['EEE-Mu', 'MuMuMu-E'], 'Cut flow: mu-coupling, high mass region')
+    table_highmass_mu.description = "Simulated signal yields passing each stage of the high mass region selection as function of HNL mass and signal strength. Shown for exclusive coupling between a Majorana HNL and a muon neutrino."
+    table_highmass_mu.location = ""
     submission.add_table(table_highmass_mu)
 
     in_path_highmass_tau = '../data/cutflows/high_mass_tau.json'
     table_highmass_tau = createCutFlowTable(in_path_highmass_tau, ['EEE-Mu', 'MuMuMu-E', 'TauEE', 'TauMuMu', 'TauEMu'], 'Cut flow: tau-coupling, high mass region')
+    table_highmass_tau.description = "Simulated signal yields passing each stage of the high mass region selection as function of HNL mass and signal strength. Shown for exclusive coupling between a Majorana HNL and a tau neutrino."
+    table_highmass_tau.location = ""
     submission.add_table(table_highmass_tau)
 
 if __name__ == '__main__':
